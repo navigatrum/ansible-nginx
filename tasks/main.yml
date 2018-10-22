@@ -12,6 +12,7 @@
       - libpcre3
       - libpcre3-dev
       - unzip
+      - uuid-dev
 
 - name: create build path
   become: 'yes'
