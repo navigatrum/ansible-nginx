@@ -4,11 +4,11 @@
   become: 'yes'
   apt:
     name:
-      - build-essential
-      - zlib1g-dev
-      - libpcre3
-      - libpcre3-dev
-      - unzip
+    - build-essential
+    - zlib1g-dev
+    - libpcre3
+    - libpcre3-dev
+    - unzip
     update_cache: yes
 
 - name: create build path
