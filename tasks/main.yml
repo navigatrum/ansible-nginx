@@ -3,10 +3,10 @@
 - name: Install apt requirements
   become: 'yes'
   apt:
-    name: "{{ pakages }}"
+    name: "{{ packages }}"
     update_cache: yes
   vars:
-    pakages:
+    packages:
     - build-essential
     - zlib1g-dev
     - libpcre3
